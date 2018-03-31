@@ -1,0 +1,1006 @@
+/* Стили Дмитрия */
+
+.newsData {
+	margin-top: 66px;
+	margin-right: 48px;
+	text-align: right;
+}
+
+.newsData a {
+	font-family: CRC55;
+	font-size: 22px;
+	color: rgb(174, 173, 173);
+	text-decoration: none;
+	padding: 0 30px;
+	border-bottom: 3px solid rgb(220, 220, 220)
+}
+
+.newsText h2 {
+	text-transform: uppercase;
+	font-family: CRC75;
+	font-size: 32px;
+	color: rgb(255, 114, 0);
+	line-height: 1.3;
+	margin: 30px 44px;
+}
+
+.newsText__border {
+	margin: 0 47px 0 580px;
+	border-top: 2px solid rgb(255, 114, 0);
+	position: relative;
+	bottom: 35px;
+}
+
+.newsText p {
+	font-family: 'CRC35';
+	font-size: 26px;
+	color: #292929;
+	padding-left: 44px;
+	padding-right: 55px;
+	line-height: 1.3;
+}
+
+.newsPicture {
+	padding: 0 34px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.newsPicture img {
+	padding-top: 35px;
+	border: 1px solid rgb(220, 220, 220);
+	border-radius: 5px;
+}
+
+.newsPic {
+	margin: 0 10px;
+}
+
+.contentNews h3 {
+	font-family: 'CRC55';
+	font-size: 30px;
+	color: rgb(255, 114, 0);
+	text-align: center;
+	padding: 40px 0 30px 0;
+}
+
+.newsText .head {
+	list-style: none;
+	text-decoration: underline;
+}
+
+.newsText ul {
+	padding-bottom: 30px;
+	list-style-image: url(../../../img/images/news/newsLi.png);
+	padding-left: 75px;
+}
+
+.newsText ul li {
+	padding-right: 44px;
+}
+
+.newsText > ul > li > p {
+	margin: 0;
+	padding: 0;
+}
+
+.newsBtn {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	height: 60px;
+	border: 0 none;
+	background: rgb(255, 114, 0);
+	font-size: 30px;
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.news__contentHead h4 {
+	font-family: CRC35;
+	font-size: 30px;
+	color: rgb(41, 41, 41);
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.news__content {
+	margin-top: 33px;
+	margin-bottom: 39px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.news__contentRead {
+	margin: 5px 13px;
+	width: 360px;
+	height: 326px;
+	overflow: hidden;
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+.news__contentRead img {
+	width: 100%;
+	height: 100%;
+	filter: brightness(0.55)
+}
+
+.news__contentRead h5 {
+	padding-left: 11px;
+	font-family: CRC75;
+	font-size: 22px;
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	position: absolute;
+	top: 76px;
+	width: 94%;
+	text-align: center;
+	cursor: pointer;
+}
+
+.news__contentRead p {
+	padding-left: 11px;
+	font-family: CRC35;
+	font-size: 18px;
+	color: rgb(220, 220, 220);
+	position: absolute;
+	top: 149px;
+	width: 94%;
+	text-align: center;
+	cursor: pointer;
+}
+
+.news__contentRead span {
+	padding-left: 11px;
+	font-family: CRC55;
+	font-size: 18px;
+	color: rgb(255, 114, 0);
+	text-decoration: underline;
+	position: absolute;
+	top: 278px;
+	width: 94%;
+	text-align: center;
+	cursor: pointer;
+}
+
+.news__contentRead a:hover img {
+	filter: blur(5px);
+	-webkit-transition: ease 0.5s;
+	-moz-transition: ease 0.5s;
+	-o-transition: ease 0.5s;
+	transition: ease 0.5s;
+}
+
+.news__contentRead a:hover h5 {
+	color: rgb(41, 41, 41);
+	-webkit-transition: ease 0.5s;
+	-moz-transition: ease 0.5s;
+	-o-transition: ease 0.5s;
+	transition: ease 0.5s;
+}
+
+.news__contentRead a:hover p {
+	color: rgb(255, 255, 255);
+	-webkit-transition: ease 0.5s;
+	-moz-transition: ease 0.5s;
+	-o-transition: ease 0.5s;
+	transition: ease 0.5s;
+}
+
+.news__contentRead a:hover span {
+	color: rgb(254, 254, 254);
+	-webkit-transition: ease 0.5s;
+	-moz-transition: ease 0.5s;
+	-o-transition: ease 0.5s;
+	transition: ease 0.5s;
+}
+
+.detail-news__backToNews {
+	margin: 0 12px;
+}
+
+.detail-news__backToNews button {
+	margin: 0 0 34px;
+	padding: 0;
+	border: 0 none;
+	width: 100%;
+	height: 60px;
+	background: rgb(255, 114, 0);
+	font-family: CRC35;
+	font-size: 30px;
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	border-radius: 7px;
+	cursor: pointer;
+}
+
+.detailNews__slidrePrevMob {
+	margin: 0 15px;
+	text-align: center;
+	position: relative;
+}
+
+.detailNews__slidrePrevMob img {
+	filter: blur(3px);
+}
+
+.detailNews__slidrePrevMob h5 {
+	margin: 0 7px;
+	font-family: 'Circe-Bold';
+	font-size: 18px;
+	color: rgb(254, 254, 254);
+	text-transform: uppercase;
+	position: absolute;
+	top: 20%;
+	right: 0;
+	width: 100%
+}
+
+.detailNews__slidrePrevMob p {
+	margin: 0 45px;
+	line-height: 1.3;
+	font-family: 'CRC35';
+	font-size: 14px;
+	color: rgb(255, 255, 255);
+	position: absolute;
+	top: 45%;
+}
+
+.detailNews__slidrePrevMob span {
+	font-family: 'CRC55';
+	font-size: 14px;
+	color: rgb(255, 114, 0);
+	text-decoration: underline;
+	position: absolute;
+	top: 85%;
+	right: 0;
+	width: 100%;
+}
+
+.detailNews__slidrePrevMob .slick-dots li {
+	display: none;
+}
+
+@media screen and (min-width: 768px) {
+	.single-item,
+	.headTitleMob,
+	.previewMob,
+	.newsDataMob,
+	.single-item__mob,
+	.r-news__contentHeadMob {
+		display: none !important;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.newsPreview,
+	.newsPicture,
+	.headTitle,
+	.r-news__contentHead,
+	.newsText__border {
+		display: none !important;
+	}
+
+
+	html,
+	body {
+		max-width: 100%;
+		overflow-x: hidden;
+	}
+
+	.headTitleMob {
+		height: 97px;
+		box-shadow: 0px 7px 21px -7px #000000;
+	}
+
+	.headTitleMob img {
+		width: 100%;
+		height: 97px;
+		position: absolute;
+		z-index: -1;
+	}
+
+	.headTitleMob__name {
+		display: flex;
+		height: 100%;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.headTitleMob__name h1 {
+		font-family: CRC95;
+		font-size: 22px;
+		color: rgb(255, 114, 0);
+		text-transform: uppercase;
+		text-shadow: 0px 1px 32px rgba(0, 0, 0, 0.5);
+	}
+
+	.detail_news__sliderMob {
+		display: flex;
+		justify-content: center;
+	}
+
+	.detail_news__sliderPicMob {
+		margin: 0 4px;
+		width: 140px;
+		height: 87px;
+		overflow: hidden;
+		border: 1px solid rgb(220, 220, 220);
+		border-radius: 5px;
+	}
+
+	.detail_news__sliderPicMob img {
+		width: 100%;
+		height: 100%;
+	}
+
+	.detail-news__backToNews button {
+		margin: 22px 0;
+		height: 45px;
+		font-size: 18px;
+		border-radius: 5px;
+	}
+
+	.news__contentHead h4 {
+		font-size: 18px;
+	}
+
+	.news__content {
+		margin-top: 12px;
+		margin-bottom: 20px;
+	}
+
+	.news__contentRead {
+		width: 289px;
+		height: 267px;
+	}
+
+	.news__contentRead img {
+		filter: blur(5px) brightness(0.8)
+	}
+
+	.news__contentRead h5 {
+		padding-left: 0;
+		font-size: 18px;
+		top: 60px;
+		width: 100%;
+	}
+
+	.news__contentRead p {
+		font-size: 14px;
+		color: rgb(255, 255, 255);
+		top: 116px;
+	}
+
+	.news__contentRead span {
+		font-size: 14px;
+		top: 219px;
+	}
+
+	.newsData {
+		margin-top: 18px;
+		margin-right: 15px;
+	}
+
+	.newsData a {
+		padding: 0 0 0 23px;
+		font-size: 11px;
+		border-bottom: 1px solid rgb(220, 220, 220)
+	}
+
+	.newsText h2 {
+		margin: 20px 16px 0;
+		font-size: 12px;
+	}
+
+	.newsText p {
+		font-size: 12px;
+		padding: 17px 15px 0;
+	}
+
+	.contentNews h3 {
+		padding: 10px 15px;
+		font-size: 14px;
+	}
+
+
+
+	.newsText .head {
+		padding-left: 15px;
+	}
+
+	.newsText ul {
+		padding-left: 30px;
+		list-style-image: url(../../../../../img/images/news/newsLiMob.png);
+	}
+
+	.newsText ul {
+		padding-bottom: 0;
+	}
+
+	.newsPrev h4 {
+		padding: 24px 0;
+		font-size: 18px;
+	}
+
+	.headTitle h1 {
+		font-size: 30px;
+	}
+
+	.headTitleImgNews {
+		filter: blur(1px) brightness(75%)
+	}
+
+
+	.newsPreview {
+		padding-top: 20px;
+	}
+
+	.preview {
+		padding-bottom: 20px;
+	}
+
+	.preview:hover h5 {
+		color: none;
+	}
+
+	.preview img,
+	.previewMob img {
+		width: 290px;
+		height: 261px;
+	}
+
+	.preview h5,
+	.previewMob h5 {
+		padding: 0 18px;
+		font-family: 'Circe-Bold';
+		font-size: 16px;
+		color: rgb(41, 41, 41);
+		text-transform: uppercase;
+		position: absolute;
+		top: 25%;
+		right: 0;
+	}
+}
+
+/*----------------ДОСТАВКА И ОПЛАТА: НАЧАЛО----------------------*/
+
+.shipping h2,
+.payment h2 {
+	padding-top: 90px;
+	font-family: CRC55;
+	font-size: 30px;
+	color: rgb(255, 114, 0);
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.shipping p,
+.payment p {
+	margin-top: 43px;
+	padding: 0 60px;
+	font-family: CRC35;
+	font-size: 26px;
+	color: rgb(41, 41, 41);
+	text-align: center;
+}
+
+.shipping__options {
+	margin-top: 61px;	
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;	
+}
+
+.shipping__options {
+	overflow: hidden;
+}
+
+.shipping__TransportCompany,
+.shipping__pickup {
+	margin: 8px 56px;
+	width: 400px;
+	height: 460px;
+	border: 2px solid rgb(220, 220, 220);
+	border-radius: 10px;
+	text-align: center;	
+}
+
+.shipping__TransportCompanyImg,
+.shipping__pickupImg {
+	height: 200px;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.shipping__TransportCompanyTitle,
+.shipping__pickupTitle {
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+
+.shipping__options h3 {
+	padding: 0 10px;
+	font-family: CRC55;
+	font-size: 19.45px;
+	color: rgb(41, 41, 41);
+	text-transform: uppercase;
+}
+
+.shipping__options p {
+	margin: 0;
+	padding: 0 10px;
+	font-family: CRC35;
+	font-size: 18px;
+	color: rgb(41, 41, 41);
+}
+
+.payment h4 {
+	margin-top: 57px;
+	font-family: CRC35;
+	font-size: 30px;
+	color: rgb(41, 41, 41);
+	text-align: center;
+	text-decoration: underline
+}
+
+.payment__availableMethods {
+	margin-top: 43px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.payment__methods {
+	margin: 7px 8px;
+	width: 253px;
+	height: 272px;
+	border: 2px solid rgb(255, 114, 0);
+	border-radius: 10px;
+	text-align: center;
+}
+
+.payment__methodsLogo {
+	display: flex;
+	height: 65%;
+	align-items: center;
+	justify-content: center;
+}
+
+.payment__methodsName {
+	display: flex;
+	height: 25%;
+	align-items: center;
+	justify-content: center;
+}
+
+.payment__methodsName p {
+	margin: 0;
+	padding: 0;
+	font-family: CRC55;
+	font-size: 26px;
+	color: rgb(41, 41, 41);
+}
+
+@media screen and (min-width: 768px) {
+	.headTitleMob {
+		display: none !important;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.headTitle {
+		display: none !important;
+	}
+
+	.headTitleMob {
+		height: 97px;
+	}
+
+	.headTitleMob img {
+		width: 100%;
+		height: 97px;
+		position: absolute;
+		z-index: -1;
+	}
+
+	.headTitleMob__name {
+		display: flex;
+		height: 100%;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.headTitleMob__name h1 {
+		font-family: CRC95;
+		font-size: 22px;
+		color: rgb(255, 114, 0);
+		text-transform: uppercase;
+	}
+
+	.shipping h2,
+	.payment h2 {
+		margin-top: 22px;
+		padding: 0;
+		font-size: 14px;
+	}
+
+	.shipping p,
+	.payment p {
+		margin-top: 17px;
+		padding: 0 15px;
+		font-size: 12px;
+	}
+
+	.shipping__options {
+		margin-top: 13px;
+	}
+
+	.shipping__TransportCompany,
+	.shipping__pickup {
+		margin: 7px 4px;
+		width: 288px;
+		height: 140px;
+		overflow: hidden;
+	}
+
+	.shipping__TransportCompanyImg,
+	.shipping__pickupImg {
+		width: 85px;
+		height: 63px;
+		float: left;
+	}
+
+	.shipping__TransportCompanyImg img {
+		width: 85%;
+	}
+
+	.shipping__pickupImg img {
+		width: 55%;
+	}
+
+	.shipping__TransportCompanyTitle,
+	.shipping__pickupTitle {
+		height: 63px;
+		margin-bottom: 0px;
+	}
+
+	.shipping__options h3 {
+		font-size: 12px;
+	}
+
+	.payment h4 {
+		margin-top: 14px;
+		font-size: 14px;
+	}
+
+	.payment__availableMethods {
+		margin-top: 29px;
+	}
+
+	.payment__methods {
+		margin: 3.5px 4px;
+		width: 137px;
+		height: 147px;
+	}
+
+	.payment__methodsLogo img {
+		width: 45%;
+	}
+}
+
+/*---------------ДОСТАВКА И ОПЛАТА: КОНЕЦ----------------------*/
+
+/*---------------О КОМПАНИИ: НАЧАЛО----------------------*/
+
+.company__description {
+	margin: 50px 15px 0;
+	height: 566px;
+	display: flex;
+	
+}
+
+.company__descriptionSlider {
+	width: 33.33333333333333%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.company__descriptionSliderImg {
+	display: flex;
+	justify-content: center;
+}
+
+
+.company__descriptionSlider h2 {
+	margin-top: 52px;
+	margin-bottom: -22px;
+	font-family: CRC95;
+	font-size: 90px;
+	color: rgb(255, 114, 0);
+	text-align: center;
+}
+
+.company__descriptionSlider p {
+	font-family: CRC95;
+	font-size: 54px;
+	color: rgb(115, 115, 115);
+	text-align: center;
+}
+
+.company__descriptionContent {
+	padding: 0 25px;
+	width: 66.66666666666667%;
+	height: 100%;
+	border: 2px solid rgb(220, 220, 220);
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.company__descriptionHead h2 {
+	margin-top: 33px;
+	margin-bottom: 10px;
+	font-family: CRC35;
+	font-size: 30px;
+	color: rgb(41, 41, 41);
+	text-transform: uppercase;
+	display: flex;
+	justify-content: center;
+}
+
+.company__descriptionBorder {
+	display: flex;
+	justify-content: center;
+}
+
+.company__descriptionBorder span {
+	width: 477px;
+	height: 2px;
+	background: rgb(255, 114, 0);
+}
+
+
+
+.company__descriptionText p {
+	margin-top: 25px;
+	font-family: CRC35;
+	font-size: 26px;
+	color: rgb(41, 41, 41);
+	text-align: center;
+	line-height: 1.17;
+}
+
+
+
+.fa-chevron-left,
+.fa-chevron-right {
+	position: relative;
+	top: 91px;
+	color: rgb(220, 220, 220);
+}
+
+.fa-chevron-left {
+	margin-left: 10px;
+}
+
+.fa-chevron-right {
+	margin-right: 20px;
+}
+
+.fa-chevron-left:hover,
+.fa-chevron-right:hover {
+	color: rgb(255, 114, 0);
+	transform: scale(1.3);	
+	-webkit-transition: ease 0.5s;
+	-moz-transition: ease 0.5s;
+	-o-transition: ease 0.5s;
+	transition: ease 0.5s;
+}
+
+/*----------------------------------*/
+
+.company__ourStaff h2 {
+	margin-top: 67px;
+	font-family: CRC35;
+	font-size: 30px;
+	color: rgb(41, 41, 41);
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.company__ourStaffBorder {
+	margin: 0 15px;
+	display: flex;
+}
+
+.company__ourStaffBorder span {
+	
+	height: 2px;
+	width: 100%;
+	background: rgb(255, 114, 0);
+}
+
+.company__staff {	
+	padding: 30px 15px;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.company__staffName {
+	width: 33.33333333333333%;	
+}
+
+.company__staffInfo {	
+	width: 66.66666666666667%;
+	overflow: hidden;
+}
+
+.company__staffNameImg,
+.company__staffNameFull,
+.company__staffNamePost {
+	padding: 0 15px;
+	text-align: center;
+}
+
+.company__staffNameImg img {
+	border: 3px solid rgb(220, 220, 220);
+	border-radius: 50%
+}
+
+.company__staffNameFull {	
+	padding-top: 22px;
+	padding-bottom: 14px;
+}
+
+.company__staffNameFull p {
+	
+	font-family: CRC55;
+	font-size: 22px;
+	color: rgb(255, 114, 0);
+	text-transform: uppercase;	
+}
+
+.company__staffNamePost p {
+	font-family: CRC35;
+	font-size: 20px;
+	color: rgb(41, 41, 41);
+}
+
+.company__staffInfoTop {
+	padding: 0 15px;
+	display: flex;
+	align-items: center;
+}
+
+.company__staffInfoTopCase {
+	width: 50%;	
+}
+
+.company__staffInfoTopCase i {
+	margin-right: 30px;
+	font-size: 40px;
+	color: rgb(220, 220, 220);
+}
+
+.company__staffInfoTopCase a.active i {
+	font-size: 48px;
+	color: rgb(255, 114, 0);
+}
+
+.company__staffInfoTopYears {
+	width: 50%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.company__staffInfoTopYears p {
+	font-family: PN35;
+	font-size: 24px;
+	color: rgb(255, 114, 0);
+}
+
+.company__staffInfoText {
+	padding-top: 50px;
+	padding: 50px 15px 0;
+ }
+
+.company__staffInfoText p {	
+	font-family: CRC35;
+	font-size: 24px;
+	color: rgb(174, 173, 173);
+	line-height: 1.33;
+}
+
+/*-------------------------*/
+
+.company__allStaff {
+	margin: 0 15px;
+}
+
+.company__allStaff button {
+	margin: 0 0 50px;
+	padding: 0;
+	border: 0 none;
+	width: 100%;
+	height: 74px;
+	font-family: CRC55;
+	font-size: 30px;
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	background: rgb(255, 114, 0);
+	border-radius: 7px;
+	cursor: pointer;
+}
+
+/*---------------------------------*/
+
+.company__videoTour h2 {
+	margin-bottom: 53px;
+	font-family: CRC35;
+	font-size: 30px;
+	color: rgb(41, 41, 41);
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.company__videoPlay {
+	margin-bottom: 77px;
+	display: flex;
+	justify-content: center;
+}
+
+/*--------------------------------*/
+
+.company__rewards {
+	margin: 0 15px;
+}
+
+.company__rewards h2 {
+	font-family: CRC35;
+	font-size: 30px;
+	color: rgb(41, 41, 41);
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.company__rewards p {
+	margin-bottom: 75px;
+	font-family: CRC35;
+	font-size: 30px;
+	color: rgb(41, 41, 41);
+	text-align: center;
+}
+
+.company__rewardsSliderImg {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.company__rewardsSliderImg img {
+	margin: 0 10px;
+	border: 2px solid rgb(220, 220, 220);
+	border-radius: 7px;
+}
+
+
+/*---------------О КОМПАНИИ: КОНЕЦ----------------------*/
+
+
+/* -=-=-=-=-=-=-=- Начало работы Глеба -=-=-=-=-=-=-=-=-=-=- */
+
+
