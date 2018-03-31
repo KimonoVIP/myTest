@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Шаблон v1.2</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Фавикон (может быть PNG, ICON, GIF - для этого меняем в type /png на /gif или /icon) -->
+	<link rel="shortcut icon" href="img/icons/icon/favicon.ico" type="image/icon">
+
+	<!-- Стили плагинов -->
+	<link rel="stylesheet" type="text/css" href="plugins/slick/slick/slick.css">
+	<link rel="stylesheet" type="text/css" href="plugins/slick/slick/slick-theme.css">
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="plugins/fancybox/dist/jquery.fancybox.min.css">
+	<link rel="stylesheet" type="text/css" href="plugins/hamburgers/hamburgers.min.css">
+
+	<!-- Стили разработчиков -->
+	<link rel="stylesheet" type="text/css" href="css/style-gal.css">
+	<link rel="stylesheet" type="text/css" href="css/style-max.css">
+	<link rel="stylesheet" type="text/css" href="css/style-dima.css">
+
+</head>
+
+<body>
+
+	<header>
+
+		<div class="topBar__background">
+			<div class="wrapper">
+				<div class="topBar pad-lr">
+					<ul>
+						<li>
+							<a href="tel:88002508293"><i class="fa fa-phone pad-r" aria-hidden="true"></i><span>8 800 250 82 93</span></a>
+						</li>
+						<li class="hid-xs hid-sm">
+							<a href="#"><i class="fa fa-volume-control-phone pad-r" aria-hidden="true"></i><span>заказать звонок</span></a>
+						</li>
+						<li class="hid-xs hid-sm hid-md">
+							<a href="#"><i class="fa fa-envelope pad-r" aria-hidden="true"></i><span>zakaz@azbukatentov.ru</span></a>
+						</li>
+						<li class="hid-xs">
+							<a href="#"><span>поиск</span><i class="fa fa-search pad-l" aria-hidden="true"></i></a>
+						</li>
+						<li class="hid-xs">
+							<a href="#"><span>личный кабинет</span><i class="fa fa-user pad-l" aria-hidden="true"></i></a>
+							<ul>
+								<li><a href=""><i class="fa fa-sign-in" aria-hidden="true"></i>Войти</a></li>
+								<li><a href=""><i class="fa fa-plus" aria-hidden="true"></i>Регистрация</a></li>
+								<li><a href=""><i class="fa fa-question" aria-hidden="true"></i>Забыли пароль?</a></li>
+								<li><a href=""><i class="fa fa-id-card" aria-hidden="true"></i>Перейти в кабинет</a></li>
+								<li><a href=""><i class="fa fa-times" aria-hidden="true"></i>Выйти</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<nav>
+			<div class="menu__background">
+				<div class="wrapper">
+					<div class="mainMenu pad-lr">
+						<div class="burger vis-xs">
+							<button class="hamburger hamburger--elastic" type="button">
+                <span class="hamburger-box">
+                  <span class="hamburger-inner"></span>
+                </span>
+              </button>
+						</div>
+						<div class="logoBlock">
+							<img src="img/images/logo.svg" alt="" class="logo">
+						</div>
+						<div class="topMenu mobMenu">
+							<ul>
+								<li>
+									<a href="">КАТАЛОГ</a>
+								</li>
+								<li>
+									<a href="">НОВОСТИ</a>
+								</li>
+								<li>
+									<a href="">ГАРАНТИИ</a>
+								</li>
+								<li>
+									<a href="">КОНТАКТЫ</a>
+								</li>
+								<li>
+									<a href="">О НАС</a>
+								</li>
+
+								<li>
+									<a href="">ЕЩЕ<i class="fa fa-chevron-down iconMore" aria-hidden="true"></i></a>
+
+									<ul>
+										<li>
+											<a href=""><i class="fa fa-comments" aria-hidden="true"></i>Отзывы</a>
+										</li>
+										<li>
+											<a href=""><i class="fa fa-check" aria-hidden="true"></i>Наши работы</a>
+										</li>
+										<li>
+											<a href=""><i class="fa fa-users" aria-hidden="true"></i>Наш коллектив</a>
+										</li>
+										<li>
+											<a href=""><i class="fa fa-truck" aria-hidden="true"></i>Доставка</a>
+										</li>
+										<li>
+											<a href=""><i class="fa fa-circle" aria-hidden="true"></i>По умолчанию</a>
+										</li>
+									</ul>
+
+								</li>
+							</ul>
+						</div>
+
+						<div class="cart">
+							<a href="#" class="linkCart"><span class="hid-xs hid-sm hid-md">КОРЗИНА</span><span><i class="fa fa-shopping-cart iconPadding-l" aria-hidden="true"><span class="pushRound">5</span></i></span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+	</header>
+
+	<main>
+		<section>
+			<div class="headTitle">
+				<img src="img/images/basketTitle.png" alt="">
+				<h1>Корзина товаров</h1>
+			</div>
+			<div class="wrapper">
+				<div class="page_basket">
+					<div>
+						<div class="titletTable_Basket">
+							<span class="col1">№</span>
+							<span class="col2">Фото</span>
+							<span class="col3">Описание</span>
+							<span class="col4">Цена</span>
+							<span class="col5">Скидка</span>
+							<span class="col6">Стоимость</span>
+							<span class="col7"></span>
+						</div>
+
+						<div class="contentTable_Basket">
+							<span class="col1">1</span>
+							<span class="col2"><a href=""><img src="img/images/basket/prod1.png" alt="картинка"></a></span>
+
+							<div class="col3">
+								<a href="">
+									<h3>Брезентовая штора в гараж</h3>
+								</a>
+								<!-- Вывод свойств товаров -->
+								<div class="prorertyProduct">
+									<div class="prorertyProductLine">
+										<span>Размер:</span>
+										<span>2х3</span>
+									</div>
+									<div class="prorertyProductLine">
+										<span>Цвет:</span>
+										<span>Зеленый</span>
+									</div>
+									<div class="prorertyProductLine">
+										<span>Пропитка:</span>
+										<span>ВО</span>
+									</div>
+									<div class="prorertyProductLine">
+										<span>Рисунок:</span>
+										<span>Нет</span>
+									</div>
+								</div>
+								<!-- Вывод количества товаров -->
+								<div class="countProductBasket">
+									<span>Кол-во:</span>
+									<i class="fa fa-minus-circle"></i> <span>2шт</span>
+									<i class="fa fa-plus-circle"></i>
+								</div>
+							</div>
+
+							<span class="col4">1500 р</span>
+							<span class="col5">-10%</span>
+							<span class="col6">2700 р</span>
+							<span class="col7">
+							<i class="fa fa-remove"></i>
+							</span>
+							<div class="collapseProrerty" onclick="visibleProperty(this)" style="display: none;">
+								<span>Все характеристики<i class="fa fa-chevron-circle-down" aria-hidden="true"></i></span></div>
+							<div class="collapseProrerty" onclick="hiddenProperty(this); " style="display: none;"><span>Свернуть<i class="fa fa-chevron-circle-up" aria-hidden="true"></i></span></div>
+							<div class="mob_titletTable_Basket">
+								<span class="col4">Цена</span>
+								<span class="col5">Скидка</span>
+								<span class="col6">Стоимость</span>
+							</div>
+							<div class="mob_contentTable_Basket">
+								<span class="col4">1500 р</span>
+								<span class="col5">-10%</span>
+								<span class="col6">2700 р</span>
+							</div>
+						</div>
+
+						<div class="contentTable_Basket">
+							<span class="col1">2</span>
+							<span class="col2">
+							<div class="circleOrangeCalc1">
+								<i class="fa fa-calculator" aria-hidden="true"></i>
+							</div>
+							<a href="">
+							<img src="img/images/basket/prod2.png" alt="картинка">
+							</a>
+							</span>
+
+							<div class="col3">
+								<a href="">
+									<h3>Брезентовая штора в гараж</h3>
+								</a>
+
+								<!-- Вывод свойств товаров -->
+								<div class="prorertyProduct">
+									<div class="prorertyProductLine">
+										<span >Размер:</span>
+										<span >3х4</span>
+									</div>
+									<div class="prorertyProductLine">
+										<span>Цвет:</span>
+										<span>Черный</span>
+									</div>
+									<div class="prorertyProductLine">
+										<span>Пропитка ghhgl;lhgm;ldm;mjbjgkfj lisgr l liuhertae; laurtg; bz ;vdhrih: </span>
+										<span>ОП</span>
+									</div>
+									<div class="prorertyProductLine">
+										<span>Тип верхних креплений:</span>
+										<span>Люверс</span>
+									</div>
+									<div class="prorertyProductLine">
+										<span>Дверь:</span>
+										<span>Да</span>
+									</div>
+									<div class="prorertyProductLine">
+										<span>Окно:</span>
+										<span>Да</span>
+									</div>
+									<div class="prorertyProductLine">
+										<span>Ламбрекен:</span>
+										<span>Нет</span>
+									</div>
+									<div class="prorertyProductLine">
+										<span>Защита:</span>
+										<span>Нет</span>
+									</div>
+									<div class="prorertyProductLine">
+										<span>Выхлопное отверстие:</span>
+										<span>Да</span>
+									</div>
+									<div class="prorertyProductLine">
+										<span>Комплект креплений:</span>
+										<span>Стандарт</span>
+									</div>
+								</div>
+
+							<!-- Вывод количества товаров -->
+							<div class="countProductBasket">
+								<span>Кол-во:</span>
+								<i class="fa fa-minus-circle"></i> <span>1шт</span>
+								<i class="fa fa-plus-circle"></i>
+							</div>
+						</div>
+
+						<span class="col4">3000 р</span>
+						<span class="col5"></span>
+						<span class="col6">3000 р</span>
+						<span class="col7">
+							<i class="fa fa-remove"></i>
+							</span>
+						<div class="collapseProrerty" onclick="visibleProperty(this)" style="display: none;">
+							<span>Все характеристики<i class="fa fa-chevron-circle-down" aria-hidden="true"></i></span></div>
+						<div class="collapseProrerty" onclick="hiddenProperty(this); " style="display: none;"><span>Свернуть<i class="fa fa-chevron-circle-up" aria-hidden="true"></i></span></div>
+						<div class="mob_titletTable_Basket">
+							<span class="col4">Цена</span>
+							<span class="col5">Скидка</span>
+							<span class="col6">Стоимость</span>
+						</div>
+						<div class="mob_contentTable_Basket">
+							<span class="col4">1500 р</span>
+							<span class="col5">-10%</span>
+							<span class="col6">2700 р</span>
+						</div>
+					</div>
+
+					<div class="contentTable_Basket">
+						<span class="col1">3</span>
+
+						<span class="col2">
+							<a href="">
+							<img src="img/images/basket/prod3.png" alt="картинка">
+							</a>
+							</span>
+
+						<div class="col3">
+							<a href="">
+								<h3>Брезентовая штора в гараж</h3>
+							</a>
+
+							<!-- Вывод свойств товаров -->
+							<div class="prorertyProduct">
+							<div class="prorertyProductLine">
+								<span>Материал:</span>
+								<span>Сталь</span>
+							</div>
+							</div>
+							<!-- Вывод количества товаров -->
+							<div class="countProductBasket">
+								<span>Кол-во:</span>
+								<i class="fa fa-minus-circle"></i>
+								<span>10шт</span>
+								<i class="fa fa-plus-circle"></i>
+							</div>
+						</div>
+
+						<span class="col4">20 р</span>
+						<span class="col5"></span>
+						<span class="col6">200 р</span>
+						<span class="col7">
+							<i class="fa fa-remove"></i>
+							</span>
+						<div class="collapseProrerty" onclick="visibleProperty(this)" style="display: none;">
+							<span>Все характеристики<i class="fa fa-chevron-circle-down" aria-hidden="true"></i></span></div>
+						<div class="collapseProrerty" onclick="hiddenProperty(this); " style="display: none;"><span>Свернуть<i class="fa fa-chevron-circle-up" aria-hidden="true"></i></span></div>
+						<div class="mob_titletTable_Basket">
+							<span class="col4">Цена</span>
+							<span class="col5">Скидка</span>
+							<span class="col6">Стоимость</span>
+						</div>
+						<div class="mob_contentTable_Basket">
+							<span class="col4">1500 р</span>
+							<span class="col5">-10%</span>
+							<span class="col6">2700 р</span>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="totalBasket">
+					<div class="containerTotalBasket">
+						<div class="sumOrder">
+							Сумма заказа:
+						</div>
+						<div class="valueSumOrder">
+							6 200 p
+						</div>
+						<div class="totalOrder">
+							Итого:
+						</div>
+						<div class="valueTotalOrder">
+							5 900 p
+						</div>
+						<div class="saleOrder">
+							Вы экономите:
+						</div>
+						<div class="valueSaleOrder">
+							300 p
+						</div>
+					</div>
+				</div>
+
+				<a class="button_Basket" href="#">
+						Оформить заказ
+					</a>
+
+			</div>
+
+			</div>
+		</section>
+	</main>
+
+
+
+
+
+
+
+
+
+	<footer>
+		<!-- jQuery -->
+		<script src="plugins/jquery/3.2.1/jquery.min.js"></script>
+		<script src="plugins/jquery/migrate1.4.1/jquery-migrate.min.js"></script>
+		<script type="text/javascript" src="plugins/slick/slick/slick.min.js"></script>
+		<script type="text/javascript" src="plugins/fancybox/dist/jquery.fancybox.min.js"></script>
+
+		<!-- <script src="https://cdn.jsdelivr.net/npm/vue"></script> -->
+		<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+
+		<script src="js/sliders.js"></script>
+		<script src="js/main-alex.js"></script>
+		<script src="js/main-gal.js"></script>
+		<script src="js/main-max.js"></script>
+		<script src="js/main-dima.js"></script>
+	</footer>
+</body>
+
+</html>
